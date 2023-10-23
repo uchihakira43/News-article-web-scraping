@@ -29,11 +29,11 @@ for item in articles:
 #print((newslist)[1]) #prints index position of title and links
 
 #Email login requirements
-gmail_user = 'uchihakira40@gmail.com'
-gmail_app_password = 'iwkp fqgt syzb xpnx'
+gmail_user = 'GMAIL HERE'
+gmail_app_password = 'GMAIL PASSWORD GOES HERE'
 
 sent_from = gmail_user
-sent_to = ['uchihakira40@gmail.com', 'uchihakira40@gmail.com']
+sent_to = ['FROM_GMAIL', 'TO_GMAIL']
 sent_subject = " Hello ! Here are today's TOP news HEADLINES >>"
 sent_body = str(newslist)
 
